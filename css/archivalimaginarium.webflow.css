@@ -99,9 +99,9 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
+  height: auto;
   min-height: 140vh;
-  margin-right: auto;
-  margin-left: auto;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -359,6 +359,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   min-height: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -475,15 +476,14 @@ p {
 }
 
 .scene-15 {
-  margin-right: auto;
-  margin-left: auto;
+  overflow: hidden;
   background-color: #fff;
   text-align: left;
 }
 
 .scene5 {
-  margin-right: auto;
-  margin-left: auto;
+  overflow: visible;
+  width: 100vw;
   background-color: #fff;
   font-family: 'Space Mono', sans-serif;
   text-align: left;
@@ -491,8 +491,6 @@ p {
 
 .scene1 {
   min-height: 100vh;
-  margin-right: auto;
-  margin-left: auto;
   text-align: left;
 }
 
@@ -561,8 +559,6 @@ p {
   display: -ms-flexbox;
   display: flex;
   min-height: 80vh;
-  margin-right: auto;
-  margin-left: auto;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -581,8 +577,6 @@ p {
   display: -ms-flexbox;
   display: flex;
   min-height: 80vh;
-  margin-right: auto;
-  margin-left: auto;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -623,10 +617,9 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   height: auto;
   min-height: 140vh;
-  margin-right: auto;
-  margin-left: auto;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -694,8 +687,6 @@ p {
   display: -ms-flexbox;
   display: flex;
   min-height: 80vh;
-  margin-right: auto;
-  margin-left: auto;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -758,8 +749,7 @@ p {
 }
 
 .scene-11 {
-  margin-right: auto;
-  margin-left: auto;
+  overflow: hidden;
   background-color: #fff;
   font-family: 'Space Mono', sans-serif;
   font-weight: 400;
@@ -785,9 +775,8 @@ p {
 
 .scene6 {
   display: block;
+  overflow: hidden;
   min-height: 80vh;
-  margin-right: auto;
-  margin-left: auto;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -806,8 +795,6 @@ p {
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
-  margin-right: auto;
-  margin-left: auto;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -957,6 +944,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   min-height: 80vh;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -970,12 +958,14 @@ p {
 }
 
 .scene20 {
+  overflow: hidden;
   background-image: url('../images/20_forkColourbck.jpg');
   background-position: 100% 100%;
   background-size: cover;
 }
 
 .scene23 {
+  overflow: hidden;
   background-color: transparent;
   background-image: url('../images/manilla-card-stock-paper-texture.jpg');
   background-position: 0px 0px;
@@ -1014,6 +1004,7 @@ p {
 }
 
 .scene2 {
+  overflow: hidden;
   background-color: #fff;
 }
 
@@ -1103,6 +1094,7 @@ p {
 
 .scene13 {
   position: static;
+  overflow: hidden;
   background-image: url('../images/manilla-card-stock-paper-texture.jpg');
   background-position: 0px 0px;
   background-size: auto;
@@ -1477,6 +1469,7 @@ p {
   bottom: 0%;
   width: auto;
   height: auto;
+  max-width: 100vw;
   min-height: 100vh;
   min-width: 100vw;
   -o-object-fit: fill;
@@ -1490,6 +1483,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   width: 100%;
   height: 140vh;
   max-height: none;
@@ -1579,14 +1573,14 @@ p {
 }
 
 .link-block-2 {
-  position: relative;
+  position: static;
   right: -3.2vw;
   max-width: 45%;
 }
 
 .link-block-3 {
   position: relative;
-  right: -75%;
+  right: auto;
   max-width: 45%;
 }
 
@@ -1595,8 +1589,7 @@ p {
 }
 
 .lottie-animation-4 {
-  position: relative;
-  right: auto;
+  position: static;
   width: 75px;
   cursor: pointer;
 }
@@ -2593,6 +2586,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   min-height: 3em;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -2621,6 +2615,7 @@ p {
 
 .sound-menu {
   position: relative;
+  right: auto;
   bottom: auto;
 }
 
@@ -3147,6 +3142,7 @@ p {
 }
 
 .section-4 {
+  overflow: hidden;
   background-color: #faf5f9;
 }
 
@@ -3188,6 +3184,42 @@ p {
 
 .fix-width {
   overflow: hidden;
+  width: 100%;
+  max-width: none;
+}
+
+.html-embed-3 {
+  overflow: hidden;
+}
+
+.lottie-squares-x {
+  position: static;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  overflow: hidden;
+  width: 100vw;
+  height: auto;
+  min-height: 100%;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.div-block-40 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 991px) {
