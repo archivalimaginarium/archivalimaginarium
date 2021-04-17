@@ -3754,7 +3754,7 @@ p {
   }
 
   .body {
-    overflow: hidden;
+    overflow: visible;
   }
 
   .scene24 {
@@ -4225,7 +4225,7 @@ p {
   }
 
   .body {
-    overflow: hidden;
+    overflow: visible;
   }
 
   .clink1.clink.flicker {
