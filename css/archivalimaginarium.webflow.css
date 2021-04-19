@@ -4533,6 +4533,10 @@ p {
     font-size: 1.2em;
   }
 
+  .linktos11 {
+    font-size: 1.4em;
+  }
+
   .link-block {
     right: 25.7vw;
     bottom: -26.6vw;
@@ -4544,6 +4548,11 @@ p {
 
   .spacershort {
     min-height: 3.8em;
+  }
+
+  .linktos18 {
+    top: -8.9em;
+    font-size: 1.2em;
   }
 
   .image-7 {
@@ -4834,8 +4843,8 @@ p {
   }
 
   .div-block-27 {
-    top: auto;
-    display: none;
+    top: 46.8em;
+    display: block;
   }
 
   .paragraph-19 {
@@ -4957,13 +4966,13 @@ p {
   }
 
   .mobilaria {
-    top: -57.1vw;
-    display: block;
+    top: -32.5em;
+    display: none;
     max-width: none;
   }
 
   .link-block-7 {
-    display: none;
+    display: block;
   }
 
   .div-block-41 {
