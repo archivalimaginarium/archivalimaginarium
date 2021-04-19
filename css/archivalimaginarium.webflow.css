@@ -3231,6 +3231,15 @@ p {
   cursor: pointer;
 }
 
+.mobilaria {
+  position: relative;
+  z-index: 2;
+  display: none;
+  max-width: 60ch;
+  padding: 12px;
+  background-color: #fff;
+}
+
 @media screen and (max-width: 991px) {
   .grid {
     grid-template-areas: ". Area-2 Area-2"
@@ -3753,6 +3762,15 @@ p {
     position: relative;
     padding-top: 10%;
   }
+
+  .mobilaria {
+    position: relative;
+    top: 15.9vw;
+    display: none;
+    max-width: 35ch;
+    padding: 12px 12px 7px;
+    background-color: #fff;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3770,12 +3788,28 @@ p {
     overflow: visible;
   }
 
+  .clink1.clink.flicker {
+    right: 7.1em;
+    bottom: -15.8vw;
+    display: none;
+  }
+
+  .clink2 {
+    right: 34.9vw;
+    bottom: -3.1vw;
+  }
+
+  .clink4 {
+    bottom: -19vw;
+  }
+
   .scene24 {
     overflow: hidden;
   }
 
   .div-block-5 {
-    right: 11vw;
+    right: auto;
+    padding-left: 20px;
   }
 
   .flickering {
@@ -3880,6 +3914,9 @@ p {
   }
 
   .image-5 {
+    left: 25vw;
+    right: auto;
+    bottom: auto;
     z-index: 1;
   }
 
@@ -3894,13 +3931,21 @@ p {
     max-width: 50%;
   }
 
+  .enter {
+    top: 50%;
+  }
+
+  .spacerext {
+    height: 5vh;
+  }
+
   .block-quote-2 {
     position: relative;
     top: -103px;
   }
 
   .text-span {
-    top: 22.2vw;
+    top: -3.3vw;
     right: auto;
   }
 
@@ -3915,7 +3960,7 @@ p {
   .link-block {
     left: 1px;
     right: auto;
-    bottom: -36.2vw;
+    bottom: -33.5vw;
   }
 
   .image-7 {
@@ -3964,8 +4009,8 @@ p {
   }
 
   .link-block-s17 {
-    right: 0.3em;
-    bottom: 47em;
+    right: auto;
+    bottom: auto;
   }
 
   .linktos11b {
@@ -4007,6 +4052,10 @@ p {
 
   .image-13 {
     left: -86%;
+  }
+
+  .image-14 {
+    left: -115px;
   }
 
   .link-block-4 {
@@ -4053,13 +4102,20 @@ p {
   }
 
   .image-20 {
+    width: 70vw;
+    height: 90vw;
     max-width: none;
+    min-height: auto;
     min-width: auto;
   }
 
   .paragraph-14 {
     max-width: 96ch;
     min-width: 60ch;
+  }
+
+  .text-block-2-copy {
+    right: auto;
   }
 
   .paragraph-15 {
@@ -4127,7 +4183,8 @@ p {
   }
 
   .image-26 {
-    max-height: 80%;
+    max-height: none;
+    max-width: none;
   }
 
   .container-10 {
@@ -4137,7 +4194,7 @@ p {
 
   .image-27 {
     position: relative;
-    bottom: -38.1vw;
+    bottom: auto;
   }
 
   .ai-title {
@@ -4151,7 +4208,7 @@ p {
   }
 
   .image-29 {
-    display: block;
+    display: none;
     max-width: 40%;
   }
 
@@ -4230,8 +4287,18 @@ p {
     min-width: 100%;
   }
 
+  .section-4 {
+    position: relative;
+    z-index: 2;
+  }
+
   .touchthis2-copy-copy {
     width: 13.3em;
+  }
+
+  .mobilaria {
+    top: auto;
+    display: none;
   }
 }
 
@@ -4290,6 +4357,11 @@ p {
     font-size: 2em;
   }
 
+  .div-block-5 {
+    right: auto;
+    padding-left: 18px;
+  }
+
   .imaginedvreal {
     font-size: 2em;
   }
@@ -4307,12 +4379,13 @@ p {
   }
 
   .paragraph-2 {
+    top: -224px;
     right: auto;
     max-height: 50vw;
   }
 
   .paragraph-3 {
-    top: -332px;
+    top: -73vw;
     right: auto;
     max-height: 395vh;
     padding-right: 5%;
@@ -4359,6 +4432,13 @@ p {
 
   .scene8 {
     min-height: 100vh;
+  }
+
+  .grid-5 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
   }
 
   .scene19 {
@@ -4426,15 +4506,15 @@ p {
   }
 
   .spacerext {
-    height: 12vh;
+    height: 3vh;
   }
 
   .lottie-animation-2 {
-    top: -34px;
+    top: auto;
   }
 
   .text-span {
-    top: 25.1vw;
+    top: -48px;
     font-size: 1.4em;
   }
 
@@ -4496,7 +4576,19 @@ p {
 
   .link-block-s17 {
     right: auto;
-    bottom: 34.2em;
+    bottom: auto;
+  }
+
+  .linktos11b {
+    top: -50%;
+  }
+
+  .linktos19 {
+    top: -48%;
+  }
+
+  .linktos17a {
+    top: -52%;
   }
 
   .lottie-animations6 {
@@ -4508,33 +4600,74 @@ p {
   }
 
   .linktos11c {
-    top: -148px;
+    top: -112px;
+    font-size: 1.2em;
   }
 
   .lotties17div {
-    right: 28.6vw;
+    right: 94%;
+    max-width: 83%;
+  }
+
+  .linktos20 {
+    top: -112px;
+    font-size: 1.2em;
+  }
+
+  .linktos16 {
+    top: -113px;
+    font-size: 1.2em;
   }
 
   .image-10 {
-    max-width: 60%;
+    right: auto;
+    max-width: 52%;
   }
 
   .image-11 {
+    left: auto;
+    bottom: auto;
     max-width: 100%;
   }
 
   .image-12 {
-    right: 123%;
-    max-width: 38%;
+    position: relative;
+    left: -47px;
+    right: 156px;
+    z-index: 10;
+    max-width: 100%;
   }
 
   .image-13 {
-    left: -181%;
+    left: -200px;
     max-width: 80%;
   }
 
+  .image-14 {
+    left: auto;
+    max-width: 75%;
+  }
+
+  .link-block-4 {
+    right: auto;
+    bottom: auto;
+  }
+
+  .touchthis2-a {
+    width: 50%;
+  }
+
+  .link-block-5 {
+    bottom: auto;
+  }
+
   .lotties17divb {
-    right: 184.1vw;
+    right: auto;
+    z-index: 16;
+  }
+
+  .lotties17diva {
+    z-index: 10;
   }
 
   .lottietoscene23 {
@@ -4608,6 +4741,7 @@ p {
   }
 
   .text-block-2-copy {
+    right: auto;
     font-size: 2em;
   }
 
@@ -4620,6 +4754,7 @@ p {
   }
 
   .standardcopy-ingird {
+    top: auto;
     min-height: 0vh;
     min-width: 60%;
   }
@@ -4667,7 +4802,16 @@ p {
   }
 
   .spacershort-deiv {
-    bottom: auto;
+    bottom: -177.7vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .text-block-5-copy {
@@ -4691,6 +4835,7 @@ p {
 
   .div-block-27 {
     top: auto;
+    display: none;
   }
 
   .paragraph-19 {
@@ -4767,8 +4912,10 @@ p {
   }
 
   .link-block-v23 {
+    left: auto;
     right: auto;
-    bottom: -26.6vw;
+    bottom: -200vw;
+    z-index: 16;
   }
 
   .touchthis2-copy {
@@ -4779,7 +4926,7 @@ p {
 
   .touchthis2345 {
     right: 0vw;
-    width: 65%;
+    width: 60%;
     max-width: none;
   }
 
@@ -4805,8 +4952,23 @@ p {
 
   .touchthis2-copy-copy {
     right: 0vw;
-    width: 12em;
+    width: 50%;
     max-width: none;
+  }
+
+  .mobilaria {
+    top: -57.1vw;
+    display: block;
+    max-width: none;
+  }
+
+  .link-block-7 {
+    display: none;
+  }
+
+  .div-block-41 {
+    position: relative;
+    left: -461px;
   }
 }
 
